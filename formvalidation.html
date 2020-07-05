@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="task1.js">
+    </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    
+
+    <title>Details</title>
+    <style> 
+        body{
+  font-family: "Source Serif Pro", serif;
+       }
+       
+
+    </style> 
+  </head>
+  <body >
+    <div class="container">
+    
+    <h2 class="text-center">Details Form</h2>
+    <br><br>
+<form onsubmit="return passvalues()" action="wlcm.html" target="_self">
+  <pre>
+  Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="name" name="fname" placeholder="Name" required> <br/>
+                
+  Phone No:&nbsp;<input type="Number" id="phno" name='ph_no' placeholder="Phn no" required> <br/> 
+  
+  Email:&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="email" name="Email" placeholder="Email address" required> <br/>
+                     
+  Gender:&nbsp;&nbsp;&nbsp;<input type="radio" id="male" name="gender" value="Male"/><label for="male"> Male </label> <input type="radio" id= "female" name="gender" value="Female"/><label for="female"> Female </label><input type="radio" id="other" name="gender" value="other"/><label for="other"> Other </label>  </label>
+  <button type="submit" class="btn btn-primary btn-md">submit</button> </pre></div>
+  
+</form>
+</body>
+</html>

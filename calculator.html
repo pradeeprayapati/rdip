@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src = 'task1.js' ></script>
+		<title>Calculator</title>
+	</head>
+	<body>
+			<div>Initialize the values</div>
+				<div>
+			        <div id="ina">a:&nbsp;</div>
+			        <input  type = 'text' id = 'a' placeholder="enter a number" required>
+			        <div id="inb">b:&nbsp;</div>
+			        <input type = 'text' id = 'b' placeholder="enter a number">
+		        </div>
+				<div>&nbsp;</div>
+		        <div>select the operation:
+				    <select id = "operation">
+		     		    <option disabled hidden selected>--select--</option>
+						<option value="add"> add </option>
+		                <option value="subtract"> subtract </option>
+		                <option value="multiply"> multiply </option>
+					    <option value="divide"> divide </option>
+		                <option value="percentage"> percentage </option>
+		                <option value="absolute"> absolute </option>
+		                <option value="squareroot"> squareroot </option>
+		            </select>  	
+				</div>      
+            <button class="print o/p" onclick="out()">output</button> 
+            <p id="res"></p>			
+	</body>
+</html>

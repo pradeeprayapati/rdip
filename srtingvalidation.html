@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src = 'task1.js' ></script>
+		<title>string validation</title>
+		<!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <style> 
+        body{
+  font-family: "Source Serif Pro", serif;
+       }
+	  </style>
+       
+	</head>
+	<body>
+	<h2 class="text-center">Palindrome and Anagram checking</h2><br>
+	<div class="container">
+	    <div>Check for:&nbsp;
+				    <select id = "operation" onchange="change()">
+		     		    <option disabled hidden selected>--select--</option>
+						<option value="palindrome"> palindrome </option>
+		                <option value="anagram"> anagram </option>
+		            </select>  	
+				</div>
+            <div>&nbsp;</div> 				
+			<div>Inputs:</div>
+				<div>
+			        <div id="ina">s1:&nbsp;</div>
+			        <input  type = 'text' id = 'a' placeholder="enter a string" required><br>
+			        <div>&nbsp;</div> 
+					<div id="inb">s2:&nbsp;</div>
+			        <input type = 'text' id = 'b' placeholder="enter a string">
+		        </div>
+				<div>&nbsp;</div>    
+            <button id="btn" class="btn btn-primary btn-md" onclick="check()">Check</button><br>				
+            <div>&nbsp;</div> 
+			<b>Result:</b>&nbsp;<p id="res" class="container" color="grey"></p></div>			
+	</body>
+</html>
